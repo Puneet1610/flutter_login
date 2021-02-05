@@ -220,7 +220,7 @@ class _LoginPageState extends State<LoginPage> {
 
   void validate() {
     if (formKey.currentState.validate()) {
-      print("Validate");
+      print("Validated");
     } else {
       print("Not Validated");
     }
